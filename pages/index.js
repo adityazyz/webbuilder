@@ -77,7 +77,7 @@ export default function Home() {
 
         {/* // sorting bar  */}
         <div className="flex pb-2 pt-3 pl-1 mt-2 font-light tracking-wide text-[13px] justify-between text-[#4B5765] border border-1 border-r-0 border-l-0 border-[#E0E4E7]">
-          <div className="flex flex-col md:flex-col">
+          <div className="flex flex-col md:flex-row">
           <div className="flex items-center ">
             <IoIosCheckmarkCircleOutline className="text-[#4B5765] h-[18px] w-[18px] mr-1" />
             Last Updated &nbsp; <span className="text-[12px]"> - February 22, 2020</span>
